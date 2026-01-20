@@ -1,0 +1,85 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    text-decoration: none;
+    list-style-type: none;
+    color: black;
+}
+.headerContainer{
+    /* background-color: aqua; */
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    height: 80px;
+}
+/* header text container */
+.headerTextContainer{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+.headerTextContainerul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid red; */
+    margin-left: 10px;
+}
+.headerTextContainerul> li{
+    /* border: 1px solid black; */
+    margin: 0px 5px 0px 5px;
+}
+.headerTextContainerul> li> a{
+    font-size: small;
+}
+/* header image container */
+.headerImageContainer{
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+.headerImageContainer> img{
+    width: 80%;
+    cursor: pointer;
+}
+/* header icons */
+.headerIconsContainer{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.headerIconsContainer>.headerIconsContainerul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+}
+.headerIconsContainer>.headerIconsContainerul>li{
+    margin: 0px 5px 0px 5px;
+}
+.headerIconsContainer>.headerIconsContainerul>li>a{
+    font-size: small;
+}
+/* ===================navlinks===================*/
+.navlinks{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    background-color: whitesmoke;
+    height: 30px;
+}
+.navlinks>.navlinksContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navlinks>.navlinksContainer>li{
+    /* border: 1px solid red; */
+    margin: 0px 20px 0px 20px;
+}
+.navlinks>.navlinksContainer>li>a{
+    font-size: 20px;
+}
+.navlinks>.navlinksContainer>li>a> span{
+    color: red;
+}
